@@ -121,6 +121,7 @@ img {
     background: url(./images/surf.jpg);
     margin-top: 500px;
     height: 200px;
+    border: solid;
 }
 
 .img-text2{
@@ -131,6 +132,8 @@ img {
     margin-top: 500px;
     height: 200px;
     width: 550px;
+    border: solid;
+    border-color: red;
 }
 
 .img-text3{
@@ -139,8 +142,10 @@ img {
     background: url(./images/puz.PNG);
     color: whitesmoke;
     width: 32.7%;
-    margin-top: px;
+    margin-top: 5px;
     height: 200px;
+    border-style: solid;
+    border-color: red;
 }
 
 .img{
@@ -151,17 +156,18 @@ img {
 .img-text4{
     position: relative;
     left: 1340px;
-    margin-bottom: 100px;
     margin-top: -215px;
     background-image: url(./images/br.png);
     height: 200px;
     width: 550px;
+    border-style: solid;
+    margin-top: -200px;
 }
 
 .socials span{
     position: relative;
     left: 750px;
-    margin-top: -40px;
+    
     word-spacing: 60px;
     
 }
@@ -170,6 +176,7 @@ img {
     word-spacing: 250px;
     right: 200px;
     position: relative;
+    height: -500px;
 }
 
 
@@ -177,11 +184,23 @@ img {
 
 .socials p {
     position: relative;
-    margin-top: 200px;
+    margin-bottom: 100px;
     font-size: x-large;
     color: blue;
     word-spacing: 5px;
     left: 400px;
-    
+    font: bolder;
+    right: 500px;
+    font-size: xx-large;
 }
 
+
+.space-driz{
+    color: blue;
+    right: -350px;
+    margin-top: 200px;
+    position: relative;
+    font-style: italic;
+    font-size: large;
+    width: 80%;
+}
